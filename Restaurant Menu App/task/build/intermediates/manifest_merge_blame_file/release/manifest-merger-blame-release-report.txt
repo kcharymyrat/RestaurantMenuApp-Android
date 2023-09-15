@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hyperskill.ordersmenu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\User\.gradle\caches\transforms-3\44ccc18f3d0c572442b95d6e2a73e597\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true" >
+17-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:10:9-35
+18        <activity
+18-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:11:9-18:20
+19            android:name="org.hyperskill.ordersmenu.MainActivity"
+19-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:11:19-72
+20            android:exported="true" >
+20-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:12:13-36
+21            <intent-filter>
+21-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:14:17-69
+22-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:16:17-77
+24-->D:\JetBrainsWork\Android\Restaurant Menu App\Restaurant Menu App\task\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <provider
+28-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+29            android:name="androidx.startup.InitializationProvider"
+29-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+30            android:authorities="org.hyperskill.ordersmenu.androidx-startup"
+30-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+31            android:exported="false" >
+31-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+32            <meta-data
+32-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+33                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+33-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+34                android:value="androidx.startup" />
+34-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+35        </provider>
+36
+37        <receiver
+37-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+38            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+38-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+39            android:directBootAware="false"
+39-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+40            android:enabled="true"
+40-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+41            android:exported="true"
+41-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+42            android:permission="android.permission.DUMP" >
+42-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+43            <intent-filter>
+43-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+44                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+45            </intent-filter>
+46            <intent-filter>
+46-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+47                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+47-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+47-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\98a3d36df3a30dbb9425e02993e0fd86\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+48            </intent-filter>
+49        </receiver>
+50    </application>
+51
+52</manifest>

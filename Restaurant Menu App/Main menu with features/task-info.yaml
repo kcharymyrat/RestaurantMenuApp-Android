@@ -1,0 +1,819 @@
+type: edu
+files:
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Color.kt
+    visible: true
+    text: |-
+      package org.hyperskill.ordersmenu.theme
+      
+      import androidx.compose.ui.graphics.Color
+      
+      val Purple200 = Color(0xFFBB86FC)
+      val Purple500 = Color(0xFF6200EE)
+      val Purple700 = Color(0xFF3700B3)
+      val Teal200 = Color(0xFF03DAC5)
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Shape.kt
+    visible: true
+    text: |-
+      package org.hyperskill.ordersmenu.theme
+      
+      import androidx.compose.foundation.shape.RoundedCornerShape
+      import androidx.compose.material.Shapes
+      import androidx.compose.ui.unit.dp
+      
+      val Shapes = Shapes(
+          small = RoundedCornerShape(4.dp),
+          medium = RoundedCornerShape(4.dp),
+          large = RoundedCornerShape(0.dp)
+      )
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Theme.kt
+    visible: true
+    text: |-
+      package org.hyperskill.ordersmenu.theme
+      
+      import androidx.compose.material.MaterialTheme
+      import androidx.compose.material.lightColors
+      import androidx.compose.runtime.Composable
+      
+      private val LightColorPalette = lightColors(
+          primary = Purple500,
+          primaryVariant = Purple700,
+          secondary = Teal200
+      
+          /* Other default colors to override
+          background = Color.White,
+          surface = Color.White,
+          onPrimary = Color.White,
+          onSecondary = Color.Black,
+          onBackground = Color.Black,
+          onSurface = Color.Black,
+          */
+      )
+      
+      @Composable
+      fun PlayOrdersMenuTheme(
+          content: @Composable () -> Unit
+      ) {
+          val colors = LightColorPalette
+      
+          MaterialTheme(
+              colors = colors,
+              typography = Typography,
+              shapes = Shapes,
+              content = content
+          )
+      }
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/theme/Type.kt
+    visible: true
+    text: |-
+      package org.hyperskill.ordersmenu.theme
+      
+      import androidx.compose.material.Typography
+      import androidx.compose.ui.text.TextStyle
+      import androidx.compose.ui.text.font.FontFamily
+      import androidx.compose.ui.text.font.FontWeight
+      import androidx.compose.ui.unit.sp
+      
+      // Set of Material typography styles to start with
+      val Typography = Typography(
+          body1 = TextStyle(
+              fontFamily = FontFamily.Default,
+              fontWeight = FontWeight.Normal,
+              fontSize = 16.sp
+          )
+          /* Other default text styles to override
+          button = TextStyle(
+              fontFamily = FontFamily.Default,
+              fontWeight = FontWeight.W500,
+              fontSize = 14.sp
+          ),
+          caption = TextStyle(
+              fontFamily = FontFamily.Default,
+              fontWeight = FontWeight.Normal,
+              fontSize = 12.sp
+          )
+          */
+      )
+    learner_created: false
+  - name: src/main/java/org/hyperskill/ordersmenu/MainActivity.kt
+    visible: true
+    text: |-
+      package org.hyperskill.ordersmenu
+      
+      import android.os.Bundle
+      import androidx.activity.ComponentActivity
+      import androidx.activity.compose.setContent
+      import androidx.compose.foundation.layout.fillMaxSize
+      import androidx.compose.material.MaterialTheme
+      import androidx.compose.material.Surface
+      import androidx.compose.ui.Modifier
+      import org.hyperskill.ordersmenu.theme.PlayOrdersMenuTheme
+      
+      class MainActivity : ComponentActivity() {
+          override fun onCreate(savedInstanceState: Bundle?) {
+              super.onCreate(savedInstanceState)
+              setContent {
+                  PlayOrdersMenuTheme {
+                      Surface(
+                          modifier = Modifier.fillMaxSize(),
+                          color = MaterialTheme.colors.background
+                      ) {
+      
+                      }
+                  }
+              }
+          }
+      }
+    learner_created: false
+  - name: src/main/res/drawable/ic_launcher_background.xml
+    visible: true
+    text: |
+      <?xml version="1.0" encoding="utf-8"?>
+      <vector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:width="108dp"
+          android:height="108dp"
+          android:viewportWidth="108"
+          android:viewportHeight="108">
+          <path
+              android:fillColor="#008577"
+              android:pathData="M0,0h108v108h-108z" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M9,0L9,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,0L19,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M29,0L29,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M39,0L39,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M49,0L49,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M59,0L59,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M69,0L69,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M79,0L79,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M89,0L89,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M99,0L99,108"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,9L108,9"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,19L108,19"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,29L108,29"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,39L108,39"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,49L108,49"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,59L108,59"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,69L108,69"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,79L108,79"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,89L108,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M0,99L108,99"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,29L89,29"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,39L89,39"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,49L89,49"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,59L89,59"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,69L89,69"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M19,79L89,79"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M29,19L29,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M39,19L39,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M49,19L49,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M59,19L59,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M69,19L69,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+          <path
+              android:fillColor="#00000000"
+              android:pathData="M79,19L79,89"
+              android:strokeWidth="0.8"
+              android:strokeColor="#33FFFFFF" />
+      </vector>
+    learner_created: false
+  - name: src/main/res/drawable-v24/ic_launcher_foreground.xml
+    visible: true
+    text: |
+      <vector xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:aapt="http://schemas.android.com/aapt"
+          android:width="108dp"
+          android:height="108dp"
+          android:viewportWidth="108"
+          android:viewportHeight="108">
+          <path
+              android:fillType="evenOdd"
+              android:pathData="M32,64C32,64 38.39,52.99 44.13,50.95C51.37,48.37 70.14,49.57 70.14,49.57L108.26,87.69L108,109.01L75.97,107.97L32,64Z"
+              android:strokeWidth="1"
+              android:strokeColor="#00000000">
+              <aapt:attr name="android:fillColor">
+                  <gradient
+                      android:endX="78.5885"
+                      android:endY="90.9159"
+                      android:startX="48.7653"
+                      android:startY="61.0927"
+                      android:type="linear">
+                      <item
+                          android:color="#44000000"
+                          android:offset="0.0" />
+                      <item
+                          android:color="#00000000"
+                          android:offset="1.0" />
+                  </gradient>
+              </aapt:attr>
+          </path>
+          <path
+              android:fillColor="#FFFFFF"
+              android:fillType="nonZero"
+              android:pathData="M66.94,46.02L66.94,46.02C72.44,50.07 76,56.61 76,64L32,64C32,56.61 35.56,50.11 40.98,46.06L36.18,41.19C35.45,40.45 35.45,39.3 36.18,38.56C36.91,37.81 38.05,37.81 38.78,38.56L44.25,44.05C47.18,42.57 50.48,41.71 54,41.71C57.48,41.71 60.78,42.57 63.68,44.05L69.11,38.56C69.84,37.81 70.98,37.81 71.71,38.56C72.44,39.3 72.44,40.45 71.71,41.19L66.94,46.02ZM62.94,56.92C64.08,56.92 65,56.01 65,54.88C65,53.76 64.08,52.85 62.94,52.85C61.8,52.85 60.88,53.76 60.88,54.88C60.88,56.01 61.8,56.92 62.94,56.92ZM45.06,56.92C46.2,56.92 47.13,56.01 47.13,54.88C47.13,53.76 46.2,52.85 45.06,52.85C43.92,52.85 43,53.76 43,54.88C43,56.01 43.92,56.92 45.06,56.92Z"
+              android:strokeWidth="1"
+              android:strokeColor="#00000000" />
+      </vector>
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+    visible: true
+    text: |-
+      <?xml version="1.0" encoding="utf-8"?>
+      <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+          <background android:drawable="@drawable/ic_launcher_background" />
+          <foreground android:drawable="@drawable/ic_launcher_foreground" />
+      </adaptive-icon>
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+    visible: true
+    text: |-
+      <?xml version="1.0" encoding="utf-8"?>
+      <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+          <background android:drawable="@drawable/ic_launcher_background" />
+          <foreground android:drawable="@drawable/ic_launcher_foreground" />
+      </adaptive-icon>
+    learner_created: false
+  - name: src/main/res/values/strings.xml
+    visible: true
+    text: |
+      <resources>
+          <string name="app_name">Restaurant App</string>
+      </resources>
+    learner_created: false
+  - name: src/main/AndroidManifest.xml
+    visible: true
+    text: |-
+      <?xml version="1.0" encoding="utf-8"?>
+      <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.hyperskill.ordersmenu">
+      
+          <application
+              android:allowBackup="true"
+              android:icon="@mipmap/ic_launcher"
+              android:label="@string/app_name"
+              android:roundIcon="@mipmap/ic_launcher_round"
+              android:supportsRtl="true">
+              <activity android:name="org.hyperskill.ordersmenu.MainActivity"
+                  android:exported="true">
+                  <intent-filter>
+                      <action android:name="android.intent.action.MAIN" />
+      
+                      <category android:name="android.intent.category.LAUNCHER" />
+                  </intent-filter>
+              </activity>
+          </application>
+      
+      </manifest>
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    text: |-
+      apply plugin: 'com.android.application'
+      apply plugin: 'kotlin-android'
+      
+      android {
+          compileSdkVersion 33
+      
+          defaultConfig {
+      
+              applicationId "org.hyperskill.ordersmenu"
+              minSdkVersion 21
+              targetSdkVersion hs.android.targetSdkVersion
+              versionCode 1
+              versionName '1.0'
+      
+              vectorDrawables {
+                  useSupportLibrary true
+              }
+          }
+      
+          compileOptions {
+              sourceCompatibility JavaVersion.VERSION_1_8
+              targetCompatibility JavaVersion.VERSION_1_8
+          }
+      
+          kotlinOptions {
+              jvmTarget = '1.8'
+          }
+          buildFeatures {
+              compose true
+          }
+          composeOptions {
+              kotlinCompilerExtensionVersion '1.2.0'
+          }
+          packagingOptions {
+              resources {
+                  excludes += '/META-INF/{AL2.0,LGPL2.1}'
+              }
+          }
+      }
+      
+      dependencies {
+          def kotlinVersion = "1.7.0"
+          implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+      
+          def coreKtx = "1.7.0"
+          implementation "androidx.core:core-ktx:$coreKtx"
+      
+          def appCompat = "1.3.1"
+          implementation "androidx.appcompat:appcompat:$appCompat"
+      
+          // compose
+          def composeUi = "1.3.3"
+          implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+          implementation 'androidx.activity:activity-compose:1.6.1'
+          implementation 'androidx.compose.material:material:1.3.1'
+          implementation "androidx.compose.ui:ui:$composeUi"
+          implementation "androidx.compose.ui:ui-tooling-preview:$composeUi"
+          debugImplementation "androidx.compose.ui:ui-tooling:$composeUi"
+          debugImplementation "androidx.compose.ui:ui-test-manifest:$composeUi"
+      }
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/internals/AbstractUnitTest.kt
+    visible: false
+    text: |-
+      package org.hyperskill.ordersmenu.internals
+      
+      import android.app.Activity
+      import org.junit.Assert
+      import org.robolectric.shadows.ShadowToast
+      
+      abstract class AbstractUnitTest<T : Activity>(clazz: Class<T>) {
+      
+          /**
+           * Asserts that the last message toasted is the expectedMessage.
+           * Assertion fails if no toast is shown with null actualLastMessage value.
+           */
+          fun assertLastToastMessageEquals(errorMessage: String, expectedMessage: String, clearToasts: Boolean = true) {
+              val actualLastMessage: String? = ShadowToast.getTextOfLatestToast()
+              Assert.assertEquals(errorMessage, expectedMessage, actualLastMessage)
+      
+              if(clearToasts) {
+                  ShadowToast.reset()
+              }
+          }
+      }
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/internals/OrdersMenuUnitTest.kt
+    visible: false
+    text: |-
+      package org.hyperskill.ordersmenu.internals
+      
+      import android.app.Activity
+      import android.view.View
+      import android.view.ViewGroup
+      import androidx.compose.ui.graphics.Color
+      import androidx.compose.ui.layout.boundsInWindow
+      import androidx.compose.ui.semantics.*
+      import androidx.compose.ui.test.SemanticsMatcher
+      import androidx.compose.ui.test.SemanticsNodeInteraction
+      import androidx.compose.ui.test.junit4.createAndroidComposeRule
+      import androidx.compose.ui.test.onRoot
+      import androidx.compose.ui.test.printToString
+      import androidx.compose.ui.text.TextLayoutResult
+      import androidx.compose.ui.text.TextStyle
+      import androidx.compose.ui.unit.LayoutDirection
+      import org.hyperskill.ordersmenu.MainActivity
+      import org.junit.Rule
+      import kotlin.math.abs
+      
+      open class OrdersMenuUnitTest<T : Activity>(clazz: Class<T>): AbstractUnitTest<T>(clazz) {
+      
+          @get:Rule
+          val composeTestRule = createAndroidComposeRule<MainActivity>()
+      
+          val recipesOnMenuToInitialStockMap = mapOf(
+              "Fettuccine" to 5,
+              "Risotto" to 6,
+              "Gnocchi" to 4,
+              "Spaghetti" to 3,
+              "Lasagna" to 5,
+              "Steak Parmigiana" to 2
+          )
+      
+          fun SemanticsNodeInteraction.assertTextStyle(block: (style: TextStyle) -> Unit ) {
+              val semanticsNode = fetchSemanticsNode()
+              val config = semanticsNode.config
+              val list = mutableListOf<TextLayoutResult>()
+              config[SemanticsActions.GetTextLayoutResult].action?.invoke(list) // populates list
+              block.invoke(list[0].layoutInput.style)
+          }
+      
+          fun isTextHorizontallyCenteredOnWindow(toleranceMargin: Float = 10f): SemanticsMatcher {
+              return SemanticsMatcher("is text horizontally centered on window") { node ->
+                  val rootNode = composeTestRule.onRoot().fetchSemanticsNode()
+                  val rootHorizontalCenter = rootNode.boundsInWindow.center.x
+      
+                  val config = node.config
+                  val list = mutableListOf<TextLayoutResult>()
+      
+                  val getTextLayoutResult = config.getOrNull(SemanticsActions.GetTextLayoutResult)
+                      ?: throw IllegalArgumentException("isTextCenteredOnWindow expects a Text node")
+      
+                  getTextLayoutResult.action?.invoke(list) // populates list
+                  val textLayoutResult = list.getOrNull(0)
+                      ?: throw IllegalStateException("It was expected for a Text node to have TextLayoutResult")
+      
+                  val textLeft = (0 until textLayoutResult.lineCount).fold(Float.POSITIVE_INFINITY) { acc, cur ->
+                      val lineStart = textLayoutResult.getLineLeft(cur)
+                      if (lineStart < acc) lineStart else acc
+                  } // value relative to node
+      
+                  val textRight = (0 until textLayoutResult.lineCount).fold(Float.NEGATIVE_INFINITY) { acc, cur ->
+                      val lineEnd = textLayoutResult.getLineRight(cur)
+                      if (lineEnd > acc) lineEnd else acc
+                  } // value relative to node
+      
+                  val textDiff = textRight - textLeft // assuming right is greater or equal than left
+                  val textHorizontalCenter = node.boundsInWindow.left + textLeft + (textDiff / 2.0f)
+      
+                  abs(textHorizontalCenter - rootHorizontalCenter) < toleranceMargin
+              }
+          }
+      
+          fun isTextOnWindowStart(toleranceMargin: Float = 15f): SemanticsMatcher {
+              return SemanticsMatcher("is text on window start") { node ->
+                  val root = composeTestRule.onRoot().fetchSemanticsNode()
+      
+                  val rootStart = if(node.layoutInfo.layoutDirection == LayoutDirection.Rtl) {
+                      root.boundsInWindow.right
+                  } else {
+                      root.boundsInWindow.left
+                  }
+      
+                  val config = node.config
+                  val list = mutableListOf<TextLayoutResult>()
+                  val getTextLayoutResult = config.getOrNull(SemanticsActions.GetTextLayoutResult)
+                      ?: throw IllegalArgumentException("isTextOnWindowStart expects a Text node")
+                  getTextLayoutResult.action?.invoke(list) // populates list
+                  val textLayoutResult = list.getOrNull(0)
+                      ?: throw IllegalStateException("It was expected for a Text node to have TextLayoutResult")
+      
+                  val textStart = if(node.layoutInfo.layoutDirection == LayoutDirection.Rtl) {
+                      val textRight = (0 until textLayoutResult.lineCount).fold(Float.NEGATIVE_INFINITY) { acc, cur ->
+                          val lineEnd = textLayoutResult.getLineRight(cur)
+                          if (lineEnd > acc) lineEnd else acc
+                      } // value relative to node
+                      val offset = node.boundsInWindow.width - textRight
+                      node.boundsInWindow.right - offset
+                  } else {
+                      val textLeft = (0 until textLayoutResult.lineCount).fold(Float.POSITIVE_INFINITY) { acc, cur ->
+                          val lineStart = textLayoutResult.getLineLeft(cur)
+                          if (lineStart < acc) lineStart else acc
+                      } // value relative to node
+                      node.boundsInWindow.left + textLeft
+                  }
+      
+                  abs(rootStart - textStart) < toleranceMargin
+              }
+          }
+      
+          fun isOnSameRowAs(otherNode: SemanticsNodeInteraction): SemanticsMatcher {
+              return SemanticsMatcher(
+                  "is on same row as ${otherNode.nodeAsString()}"
+              ) { node ->
+                  val otherNodeYPosition = otherNode.fetchSemanticsNode().positionInWindow.y
+                  val nodeYPosition = node.positionInWindow.y
+                  abs(otherNodeYPosition - nodeYPosition) < 10f
+              }
+          }
+      
+          fun isBelow(otherNode: SemanticsNodeInteraction): SemanticsMatcher {
+              return SemanticsMatcher("is bellow ${otherNode.nodeAsString()}"
+              ) { node ->
+                  val nodeBellowY = node.layoutInfo.coordinates.boundsInWindow().top
+                  val nodeAboveY = otherNode.fetchSemanticsNode().layoutInfo.coordinates.boundsInWindow().bottom
+                  nodeBellowY >= nodeAboveY
+              }
+          }
+      
+          fun isButton(): SemanticsMatcher {
+              return SemanticsMatcher(
+                  "has role Role.Button"
+              ) { node ->
+                  val config = node.config
+                  val role = config.getOrNull(SemanticsProperties.Role)
+                  role == Role.Button
+              }
+          }
+      
+          fun assertNotOverlapEachOthers(
+              listOfNodes: List<SemanticsNode>
+          ) {
+              listOfNodes.forEachIndexed { i, node ->
+                  val subList = listOfNodes.drop(i + 1)
+                  subList.forEach { anotherNode ->
+      
+                      val hasIntersection = anotherNode.boundsInWindow.intersect(node.boundsInWindow).let {
+                          // from intersect docstring
+                          // 'If the two rectangles do not overlap,
+                          // then the resulting Rect will have a negative width or height'
+                          it.width > 0 && it.height > 0
+                      }
+      
+      
+                      assert(!hasIntersection) {
+                          val nodeText = node.config.getOrNull(SemanticsProperties.Text).toString()
+                          val anotherNodeText = anotherNode.config.getOrNull(SemanticsProperties.Text).toString()
+                          "View with text $nodeText and bounds ${node.boundsInWindow}" +
+                                  " should not overlap " +
+                                  "view with text $anotherNodeText and bounds ${anotherNode.boundsInWindow}"
+                      }
+                  }
+              }
+          }
+      
+          fun Color.rgbEquals(other: Color): Boolean {
+              return this.red == other.red && this.green == other.green && this.blue == other.blue
+          }
+      
+          fun SemanticsNodeInteraction.nodeAsString(): String{
+              return this.printToString()
+                  .substringAfter("\n")
+                  .replace('\n', ' ')
+          }
+      
+          //////////////////////
+      
+          fun debugResearchPurposes(activity: Activity) {
+              val rootView = activity.window.decorView.rootView
+              println(rootView.hierarchyString())
+              println()
+              println(composeTestRule.onRoot(useUnmergedTree = true).printToString(Int.MAX_VALUE))
+          }
+      
+          fun View.hierarchyString(tag: String ="| "): String {
+      
+              val cur = "$tag ${this::class.java}"
+              return if (this is ViewGroup) {
+                  val childrenString = (0 until this.childCount).map {
+                      this.getChildAt(it)
+                  }.fold("") { a, child ->
+                      val childString = child.hierarchyString("$tag |--")
+                      "$a\n$childString"
+                  }
+                  "$cur$childrenString"
+              } else {
+                  cur
+              }
+          }
+      }
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/Stage1UnitTest.kt
+    visible: false
+    text: |-
+      package org.hyperskill.ordersmenu
+      
+      import android.app.Activity
+      import androidx.compose.ui.test.*
+      import androidx.test.ext.junit.runners.AndroidJUnit4
+      import org.hyperskill.ordersmenu.internals.OrdersMenuUnitTest
+      import org.junit.Test
+      import org.junit.runner.RunWith
+      
+      @RunWith(AndroidJUnit4::class)
+      class Stage1UnitTest : OrdersMenuUnitTest<MainActivity>(MainActivity::class.java){
+      
+      
+          @Test
+          fun checkTitle() {
+      
+              composeTestRule.activityRule.scenario.onActivity { activity : Activity ->
+      
+                  composeTestRule.apply {
+                      val titleNode = onNode(hasTextExactly("Orders Menu"))
+                      titleNode.assertExists("There should exist a title node with text \"Orders Menu\"")
+                      titleNode.assertIsDisplayed()
+      
+                  }
+              }
+          }
+      }
+    learner_created: false
+  - name: src/test/java/org/hyperskill/ordersmenu/Stage2UnitTest.kt
+    visible: false
+    text: |-
+      package org.hyperskill.ordersmenu
+      
+      import android.app.Activity
+      import androidx.compose.ui.test.assert
+      import androidx.compose.ui.test.assertIsDisplayed
+      import androidx.compose.ui.test.hasTextExactly
+      import androidx.compose.ui.test.onSiblings
+      import androidx.compose.ui.unit.sp
+      import androidx.test.ext.junit.runners.AndroidJUnit4
+      import org.hyperskill.ordersmenu.internals.OrdersMenuUnitTest
+      import org.junit.Assert.assertEquals
+      import org.junit.FixMethodOrder
+      import org.junit.Test
+      import org.junit.runner.RunWith
+      import org.junit.runners.MethodSorters
+      
+      @FixMethodOrder(MethodSorters.NAME_ASCENDING)
+      @RunWith(AndroidJUnit4::class)
+      class Stage2UnitTest : OrdersMenuUnitTest<MainActivity>(MainActivity::class.java){
+      
+      
+      
+          @Test
+          fun test00_checkTitle() {
+              composeTestRule.activityRule.scenario.onActivity { activity : Activity ->
+      
+                  composeTestRule.apply {
+      
+                      onNode(hasTextExactly("Orders Menu")).apply {
+                          assertExists("There should exist a title node with text \"Orders Menu\"")
+                          assertIsDisplayed()
+      
+                          assertTextStyle { style ->
+                              assertEquals("The title should have size 48sp", 48.sp, style.fontSize)
+                          }
+      
+                          assert(isTextHorizontallyCenteredOnWindow()) { "Title should be centered" }
+                      }
+      
+                  }
+              }
+          }
+      
+          @Test
+          fun test01_checkFettuccine() {
+              composeTestRule.activityRule.scenario.onActivity { activity : Activity ->
+      
+                  composeTestRule.apply {
+      
+                      onNode(hasTextExactly("Fettuccine")).apply {
+                          assertExists("There should exist a title node with text \"Fettuccine\"")
+                          assertIsDisplayed()
+      
+                          assertTextStyle { style ->
+                              assertEquals("Fettuccine should have size 24sp", 24.sp, style.fontSize)
+                          }
+      
+                          assert(isTextOnWindowStart()) { "Fettuccine should be displayed at start" }
+                      }
+                  }
+              }
+          }
+      
+          @Test
+          fun test02_checkTitleIsAboveFettuccine() {
+              composeTestRule.activityRule.scenario.onActivity { activity : Activity ->
+      
+                  composeTestRule.apply {
+      
+                      val title = onNode(hasTextExactly("Orders Menu"))
+      
+                      onNode(hasTextExactly("Fettuccine")).apply {
+                          assert(isBelow(title))
+                      }
+                  }
+              }
+          }
+      
+          @Test
+          fun test03_checkOverlap() {
+              composeTestRule.activityRule.scenario.onActivity { activity : Activity ->
+      
+                  composeTestRule.apply {
+                      val titleNode = onNode(hasTextExactly("Orders Menu"))
+                      val siblingsTitle = titleNode.onSiblings().fetchSemanticsNodes(
+                          atLeastOneRootRequired = true
+                      )
+                      val allNodes = siblingsTitle + titleNode.fetchSemanticsNode()
+                      assertNotOverlapEachOthers(allNodes)
+                  }
+              }
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/27515#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 11 Sep 2023 09:07:58 UTC"
+record: 2

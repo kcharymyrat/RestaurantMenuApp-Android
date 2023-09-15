@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restaurant_Menu_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Restaurant_Menu_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Restaurant Menu App/task/Restaurant_Menu_App.Restaurant_Menu_App-task.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Restaurant_Menu_App.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Restaurant_Menu_App.util.iml" />
+    </modules>
+  </component>
+</project>

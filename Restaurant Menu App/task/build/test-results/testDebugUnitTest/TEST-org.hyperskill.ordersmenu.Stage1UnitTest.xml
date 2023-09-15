@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.ordersmenu.Stage1UnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-15T08:12:10" hostname="WIN-PK97IO7J39D" time="6.861">
+  <properties/>
+  <testcase name="checkTitle" classname="org.hyperskill.ordersmenu.Stage1UnitTest" time="6.861"/>
+  <system-out><![CDATA[Called loadFromPath(/system/framework/framework-res.apk, true); mode=binary sdk=29
+resources.arsc in APK 'C:\Users\User\.m2\repository\org\robolectric\android-all-instrumented\10-robolectric-5803371-i3\android-all-instrumented-10-robolectric-5803371-i3.jar' is compressed.
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.ordersmenu.Stage3UnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-09-15T08:12:18" hostname="WIN-PK97IO7J39D" time="3.798">
+  <properties/>
+  <testcase name="test00_checkFettuccineAmountIncreases" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.872"/>
+  <testcase name="test01_checkFettuccineAmountIncreasesUpToLimitOnly" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.861"/>
+  <testcase name="test02_checkFettuccineWhenOnMaxLimitColorIsRed" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.542"/>
+  <testcase name="test03_checkAmountDecrease" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.509"/>
+  <testcase name="test04_checkAmountDecreaseDoesNotGoBellowZero" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.638"/>
+  <testcase name="test05_whileColorIsRedCheckColorChangesBackToBlackAfterDecrement" classname="org.hyperskill.ordersmenu.Stage3UnitTest" time="0.376"/>
+  <system-out><![CDATA[newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 5
+newOrders[Fettuccine]!!.toInt() = 5
+menuMap.value[Fettuccine]!!.toInt() = 5
+true
+newOrders.value[Fettuccine].toString() = 5
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 5
+newOrders[Fettuccine]!!.toInt() = 5
+menuMap.value[Fettuccine]!!.toInt() = 5
+true
+newOrders.value[Fettuccine].toString() = 5
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 5
+newOrders[Fettuccine]!!.toInt() = 5
+menuMap.value[Fettuccine]!!.toInt() = 5
+true
+newOrders.value[Fettuccine].toString() = 5
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 5
+newOrders[Fettuccine]!!.toInt() = 5
+menuMap.value[Fettuccine]!!.toInt() = 5
+true
+newOrders.value[Fettuccine].toString() = 5
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+newOrders[Fettuccine]!!.toInt() = 0
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 0
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 1
+newOrders[Fettuccine]!!.toInt() = 1
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 1
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 2
+newOrders[Fettuccine]!!.toInt() = 2
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 2
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 3
+newOrders[Fettuccine]!!.toInt() = 3
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 3
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
++, newOrders.[Fettuccine]!!.toInt()  = 5
+newOrders[Fettuccine]!!.toInt() = 5
+menuMap.value[Fettuccine]!!.toInt() = 5
+true
+newOrders.value[Fettuccine].toString() = 5
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+-, newOrders[Fettuccine]!!.toInt()  = 4
+newOrders[Fettuccine]!!.toInt() = 4
+menuMap.value[Fettuccine]!!.toInt() = 5
+false
+newOrders.value[Fettuccine].toString() = 4
+newOrders[Risotto]!!.toInt() = 0
+menuMap.value[Risotto]!!.toInt() = 6
+false
+newOrders.value[Risotto].toString() = 0
+newOrders[Gnocchi]!!.toInt() = 0
+menuMap.value[Gnocchi]!!.toInt() = 4
+false
+newOrders.value[Gnocchi].toString() = 0
+newOrders[Spaghetti]!!.toInt() = 0
+menuMap.value[Spaghetti]!!.toInt() = 3
+false
+newOrders.value[Spaghetti].toString() = 0
+newOrders[Lasagna]!!.toInt() = 0
+menuMap.value[Lasagna]!!.toInt() = 5
+false
+newOrders.value[Lasagna].toString() = 0
+newOrders[Steak Parmigiana]!!.toInt() = 0
+menuMap.value[Steak Parmigiana]!!.toInt() = 2
+false
+newOrders.value[Steak Parmigiana].toString() = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

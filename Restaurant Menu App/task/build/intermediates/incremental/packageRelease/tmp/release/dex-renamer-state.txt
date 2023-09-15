@@ -1,0 +1,7 @@
+#Fri Sep 15 13:11:57 UZT 2023
+base.0=D\:\\JetBrainsWork\\Android\\Restaurant Menu App\\Restaurant Menu App\\task\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=D\:\\JetBrainsWork\\Android\\Restaurant Menu App\\Restaurant Menu App\\task\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
